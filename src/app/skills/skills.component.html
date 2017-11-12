@@ -1,19 +1,25 @@
 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
     <div class="my-auto">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-5">Færdigheder</h2>
 
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div class="subheading mb-2">Programmeringssprog &amp; Værktøjer</div>
         <ul class="list-inline list-icons">
             <li class="list-inline-item" *ngFor="let icon of deviconArr">
                 <i class="devicons {{icon}}"></i>
             </li>
         </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-            <li *ngFor="let workflow of workflowArr">
+        <div class="subheading mb-2">kompetencer i uddybende format</div>
+        <ul class="fa-ul mb-5">
+            <li *ngFor="let devinfo of devinfoArr">
                 <i class="fa-li fa fa-check"></i>
-                {{workflow}}
+                {{devinfo}}
+            </li>
+        </ul>
+        <div class="subheading mb-2">Jeg er desuden en person der...</div>
+        <ul class="fa-ul">
+            <li *ngFor="let bonus of bonusinfoArr">
+                <i class="fa-li fa fa-check"></i>
+                {{bonus}}
             </li>
         </ul>
     </div>

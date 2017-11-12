@@ -10,8 +10,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item" *ngFor="let nav of navigation">
-                <a class="nav-link js-scroll-trigger" href="#{{makeLowerCase(nav)}}">{{nav}}</a>
+            <li class="nav-item" *ngFor="let nav of navigationData">
+                <a class="nav-link js-scroll-trigger" href="#{{makeLowerCase(nav.anchor)}}">{{nav.title}}</a>
             </li>
         </ul>
     </div>

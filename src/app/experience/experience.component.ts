@@ -18,33 +18,34 @@ export class ExperienceComponent implements OnInit {
 
     public experienceArr:ExperienceData[] = [
         {
-            title: "Senior Web Developer",
-            company: "Intelitec Solutions",
-            duties: "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.",
-            startDate: "March 2013",
-            endDate: "Present"
+            title: "Driftskonsulent",
+            company: "TDC Group",
+            duties: "Vi er en lille skære af personer, der holder øje med call-centeret, samt griber end ved større nedbrud. Dernæst følger en række opgaver, i proaktiv form. Desuden har min arbejdsgiver givet undertegnet mulighed for, og plads til, at udvikle kompetencerne indenfor Javascript mm. Dette er bl.a. kommet til udtryk ved, at vi i dag har flere brugbare Add-ons til Google Chrome (extentions).",
+            startDate: "jul. 2016",
+            endDate: "Nuværende"
         },
         {
-            title: "Web Developer",
-            company: "Intelitec Solutions",
-            duties: "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
-            startDate: "December 2011",
-            endDate: "March 2013"
+            title: "Product Specialist",
+            company: "Sitel",
+            duties: "Coaching samt vidensdeling og undervisningen, samt teknisk support på 2nd-line. Herefter fuldtidsbeskæftigelse i 3rd-line support, med det overordnede ansvar for behandling og dagligdagens gang.",
+            startDate: "aug. 2015",
+            endDate: "jun. 2016"
         },
         {
-            title: "Junior Web Designer",
-            company: "Shout! Media Productions",
-            duties: "Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.",
-            startDate: "July 2010",
-            endDate: "December 2011"
+            title: "Kunderådgiver",
+            company: "YouSee & Sitel",
+            duties: "Kunderådgiver som teknisk supporter, med varetagelse af opgaver i både 1st-line, efterfulgt af 2nd-line. I sep. 2014 var opgaverne i YouSee, inden outsourcing til Sitel, der i dag atter er in-house.",
+            startDate: "sep. 2014",
+            endDate: "jul. 2015"
         },
         {
-            title: "Web Design Intern",
-            company: "Shout! Media Productions",
-            duties: "Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.",
-            startDate: "September 2008",
-            endDate: "June 2010"
-        },
+            title: "Servicemedarbejder & 1. Assistent",
+            company: "Dagli' Brugsen & Lidl Danmark",
+            duties: "I 2008 fik jeg mit første job i Dagli' Brugsen Ørum Djurs, efterfulgt af Dagli' Brugsen Nimtofte. Før dette nåede jeg også at tjene en mønt eller to som avisbud. \
+            I jun. 2011 startede jeg i Lidl Danmark som servicemedarbejder. Først som deltid, og herefter fuldtid efter afslutning på HTX. Her var jeg bl.a. også lukkeansvarlig samt nøglebærer",
+            startDate: "august 2008",
+            endDate: "dec. 2013"
+        }
     ];
 
     constructor() {

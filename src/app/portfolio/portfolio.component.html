@@ -1,0 +1,13 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+    <div class="my-auto">
+        <h2 class="mb-5">Portfolio</h2>
+        <ul class="fa-ul mb-4">
+            <li *ngFor="let portfolio of portfolioArr">
+                <i class="fa-li fa fa-briefcase text-primary"></i>
+                {{portfolio}}
+            </li>
+        </ul>
+        <p>{{portfolioInfo.text}}</p>
+        <p>{{portfolioInfo.beforeurl}}<a href="{{portfolioInfo.url}}" target="_blank">{{portfolioInfo.company}}</a>{{portfolioInfo.afterurl}}</p>
+    </div>
+</section>

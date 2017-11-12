@@ -10,15 +10,16 @@ export interface PersonalInformation {
 }
 
 export interface Address {
-    street:string;
-    city:string;
-    state:string;
     zipCode:string;
+    city:string;
+    area:string;
+    country:string;
 }
 
 export interface SocialInfo {
     iconClassInfo:string;
     url:string;
+    target:string;
 }
 
 @Component({
@@ -30,35 +31,34 @@ export interface SocialInfo {
 export class AboutComponent implements OnInit {
 
     public personalInfo:PersonalInformation = {
-        firstName: "Clarence",
-        lastName: "Taylor",
+        firstName: "Tobias",
+        lastName: "Nordahl",
         address: {
-            street: "3542 Berry Street",
-            city: "Cheyenne Wells",
-            state: "CO",
-            zipCode: "80810"
+            zipCode: "8000",
+            city: "Aarhus",
+            area: "Midtjylland",
+            country: "Danmark",
         },
-        email: "name@email.com",
-        description: "I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
-        phoneNumber: "(317) 585-8468"
+        email: "post@tobiasnordahl.dk",
+        description: "Front-End Designer med ambitionerne om langt mere & passion for mange tekniske aspekter.",
+        phoneNumber: "(+45) 40 30 44 61"
     };
 
     public socialData:SocialInfo[] = [
         {
             iconClassInfo: "fa fa-facebook fa-stack-1x fa-inverse",
-            url: "#"
-        },
-        {
-            iconClassInfo: "fa fa-twitter fa-stack-1x fa-inverse",
-            url: "#"
+            url: "https://facebook.com/exetico",
+            target: "_blank"
         },
         {
             iconClassInfo: "fa fa-linkedin fa-stack-1x fa-inverse",
-            url: "#"
+            url: "https://www.linkedin.com/in/tobias-nordahl-43b295103/",
+            target: "_blank"
         },
         {
             iconClassInfo: "fa fa-github fa-stack-1x fa-inverse",
-            url: "#"
+            url: "https://github.com/exetico/",
+            target: "_blank"
         },
     ];
 

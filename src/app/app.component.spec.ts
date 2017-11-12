@@ -5,7 +5,7 @@ import {ExperienceComponent} from "./experience/experience.component";
 import {EducationComponent} from "./education/education.component";
 import {SkillsComponent} from "./skills/skills.component";
 import {InterestsComponent} from "./interests/interests.component";
-import {AwardsComponent} from "./awards/awards.component";
+import {PortfolioComponent} from "./portfolio/portfolio.component";
 import {AboutComponent} from "./about/about.component";
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -18,7 +18,7 @@ describe('AppComponent', () => {
         EducationComponent,
         SkillsComponent,
         InterestsComponent,
-        AwardsComponent,
+        PortfolioComponent,
       ],
     }).compileComponents();
   }));
